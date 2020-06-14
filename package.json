@@ -2,7 +2,7 @@
   "name": "super-basic-webapp",
   "version": "1.0.0",
   "description": "Very Basic Express App for practice/learning purposes.",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
