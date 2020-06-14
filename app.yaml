@@ -1,0 +1,18 @@
+env: flex
+env_variables:
+  APPLICATION_PORT: "8080"
+  IP_ADDRESS: "0.0.0.0"
+manual_scaling:
+  instances: 1
+network:
+  session_affinity: true
+resources:
+  cpu: 1
+  disk_size_gb: 10
+  memory_gb: 0.5
+runtime: nodejs
+skip_files:
+  - ^(.*/)?\.md$
+  - node_modules
+  - .gitignore$
+
