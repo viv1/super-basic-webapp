@@ -1,5 +1,5 @@
 {
-  "name": "template-nodejs",
+  "name": "super-basic-webapp",
   "version": "1.0.0",
   "description": "Very Basic Express App for practice/learning purposes.",
   "main": "index.js",
