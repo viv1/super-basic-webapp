@@ -13,4 +13,4 @@ This is a super simple Express app, and can be used for tutorials at https://viv
 
 4. Run: `npm install` on project root. You should see a `node_modules` folder added to the project.
 
-5. Open http://localhost:3333 on your favourite browser and verify that you see a `Congrats! This works.` message.
+5. Run: `node index.js`, and open http://localhost:3333 on your favourite browser to verify that you see a `Congrats! This works.` message.
