@@ -1,7 +1,7 @@
 const express = require('express')
 const app = express()
 
-const PORT = process.env.APPLICATION_PORT || 3000;
+const PORT = process.env.PORT || 3000;
 const IP_ADDRESS = process.env.IP_ADDRESS || '127.0.0.1';
 
 app.get('/', (req, res) => res.send('Congrats! This works.'))
